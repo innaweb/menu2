@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css"> <!-- html видит css -->
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="css/font-awesome.css"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+			function f()
+				{
+				var el=document.getElementById("navbar");
+					if(el.style.display!='block')
+					{
+						el.style.display ='block'
+					}
+					else{el.style.display ='none'}
+				}
+
+</script>
+
+</head>
+
+<body>
+<menu id="navbar">
+	<ol>
+		<li>HOME</li>
+		<li>ABOUT</li>
+		<li>GALLERY</li>
+		<li>SERVICES</li>
+		<li>BLOG</li>
+		<li>CONTACTS</li>
+	</ol>
+	
+</menu>
+<div class="burger" onclick="f()">
+
+	<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g>
+	<polygon fill="#e9f3f4" points="150,29.333 49.999,29.333 30.166,57.365 169.834,57.365 	"/>
+	<polygon fill="#bfdbde" points="0,100 9.167,112.956 190.833,112.956 200,100 189.333,84.924 10.667,84.924 	"/>
+	<polygon fill="#95c3c9" points="49.999,170.666 150,170.666 169.834,142.635 30.166,142.635 	"/>
+</g>
+</svg>
+
+</div>
+
+<footer></footer>
+</body>
+</html>

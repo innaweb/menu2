@@ -1,0 +1,68 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	background: #164449;
+}
+menu{
+	width: 90%;
+	height: 102px;
+	background: #164449;
+	float: left;
+}
+menu ol li{
+	list-style-type: none;
+	display: block; 
+	color: #e9f3f4;
+	float: left; 
+	cursor:pointer;
+	border: 1px solid transparent;
+	padding: 20px;
+	font-family:'Roboto', sans-serif;
+}
+menu ol li:hover{
+	background:rgba(191, 219, 222, 0.3);
+	color: white;
+	transition: 1s;
+}
+.burger{
+	display: none;
+}
+
+#navbar
+{
+	display: block;
+	text-align: center;
+}
+@media only screen and (max-width: 480px){
+.burger{
+	display: block;
+	margin-left: 72%;
+	position: absolute;
+}
+menu{
+	width: 100%;
+	height: auto;
+	/*background: #dadada;*/
+	float: left;
+	text-align: center
+}
+#navbar
+{	clear:both;
+	display: none;
+	margin: 100px auto;
+}
+menu ol li{
+	clear: both;
+	display: block;
+	width: 95%;
+	/*background: red;*/
+	border-bottom: 2px dotted rgba(191, 219, 222, 0.5);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*margin: auto;*/
+	text-align: center;
+}
+
+}
